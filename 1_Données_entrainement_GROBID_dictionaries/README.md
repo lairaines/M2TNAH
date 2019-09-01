@@ -7,13 +7,13 @@ GROBID-dictionaries est un logiciel reposant sur l'apprentissage supervisé et p
 
 Les étapes pour installer GROBID-dictionaries, créer de nouveaux modèles ou entraîner des modèles préexistants afin de traiter des docuements sont disponibles [ici](https://github.com/MedKhem/grobid-dictionaries/wiki/Docker_Instructions9).
 
-## Développement d'un modèle général
+## Développement d'un modèle général grobid_CAT
 
-L'un des objectifs de mon stage était de déterminer s'il était plus efficace de développer des modèles spécifiques de la mise en page de chaque catalogue de vente ou de produire un modèle général
+L'un des objectifs de mon stage était de déterminer s'il était plus efficace de développer des modèles spécifiques de la mise en page de chaque catalogue de vente ou de produire un modèle général pour tous les types de catalogues.
 
-A general model was developed for automatically encoding manuscripts sale catalogs. It can be downloaded from [this repository](https://github.com/lairaines/grobid_TEI_2019). The training data are extracted from the following catalogs and periodical issues:
-+ Gabriel Charavay, _Revue des Autographes_, first series : 25, 35, 50, 80.
-+ Gabrielle Charavay _Revue des Autographes_, second series : 24, 56.
+Les données d'entraînement et d'évaluation du modèle générale sont extraites des publications et catalogues suivants :
++ Gabriel Charavay, _Revue des Autographes_, première série : 25, 35, 50, 80.
++ Gabrielle Charavay _Revue des Autographes_, deuxième série : 24, 56.
 + Auguste Laverdet, _Catalogue de lettres autographes et manuscrits_ : 1, 22.
 + Etienne Charavay, _Catalogue d’une intéressante collection de lettres autographes…_ (14 décembre 1908).
 	
@@ -28,7 +28,7 @@ Le choix du jeu de données avec lequel GROBID-dictionaries est entraîné dépe
 <br/>![alt text](https://github.com/e-ditiones/GROBID/blob/master/RDA_LAD.png)
 _Revue des autographes, Gabriel Charavay. (Première série N°42, Decembre 1874)_
 
-<br/>The train set contains at every level data extracted only from different issues of the _Revue des Autographes_ (25, 35, 50, 80 of the first series / 24, 56 of the second series).
+<br/>À tous les niveaux, le jeu de données contient des données extraites de divers numéros de _Revue des Autographes_ (25, 35, 50, 80 de la première série / 24, 56 de la deuxième).
 
 ## Quand choisir le jeu de données set grobid_OTHER_FIXED_PRICES?
 
@@ -37,7 +37,7 @@ _Revue des autographes, Gabriel Charavay. (Première série N°42, Decembre 1874
 <br/>![alt text](https://github.com/e-ditiones/GROBID/blob/master/OTHER_FIXED_PRICES.png)
 _Catalogue de lettres autographes et manuscrits, Auguste Laverdet (N°1, April 1856.)_
 
-<br/>The train set contains at dictionary body segnentation level data extracted only from different issues of Auguste Laverdet's fixed-prices catalogs (issue 1 and issue 22). For the following levels, it contains the same data as the general model.
+<br/>Le jeu de données contient au niveau "dictionary body segmentation" des données issues des catalogues à prix marqués d'Auguste Laverdet (numéro 1 and issue 22). Aux niveaux inférieurs, il contient les mêmes données que le modèle général.
 
 ## Quand choisir le jeu de données grobid_AUCTION?
 
@@ -46,11 +46,11 @@ _Catalogue de lettres autographes et manuscrits, Auguste Laverdet (N°1, April 1
 <br/>![alt text](https://github.com/e-ditiones/GROBID/blob/master/AUCTION.png)
 _Catalogue d’une intéressante collection de lettres autographes…, Noël Charavay (December, 14th 1908)_
 
-<br/>The train set contains at dictionary body segnentation level data extracted only from a catalogue published by Etienne Charavay concerning an auctions sale that took place on December, 14th 1908. For the following levels, it contains the same data as the general model.
+<br/>Le jeu de données contient au niveau "dictionary body segmentation" des données issues d'un catalogue de vente produit par Noël Charavay pour une vente aux enchères (14 décembre 1908). Aux niveaux inférieurs, il contient les mêmes données que le modèle général.
 
 ## Crédits
 
-GROBID dictionaries est développé par Mohamed Khemakhem ([GitHub](https://github.com/MedKhem)). More info on GROBID technologies can be found [here](https://grobid.readthedocs.io).
+GROBID dictionaries est développé par Mohamed Khemakhem ([GitHub](https://github.com/MedKhem)). Plus d'informations sur les technologies GROBID est disponible [ici](https://grobid.readthedocs.io).
 
 ## License
 
