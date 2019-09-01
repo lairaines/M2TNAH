@@ -26,7 +26,7 @@ Le choix du jeu de données avec lequel GROBID-dictionaries est entraîné dépe
 **Lorsqu'on traite des catalogues à prix marqués qui ont la même mise en page que la _Revue des autographes_ (voir ci-dessous), GROBID dictionaries doit être entraîné avec le jeu de données grobid_RDA_LAD.**
 
 <br/>![alt text](https://github.com/e-ditiones/GROBID/blob/master/RDA_LAD.png)
-_Revue des autographes, Gabriel Charavay. (Première série N°42, Decembre 1874)_
+_Revue des autographes, Gabriel Charavay. (Première série N°42, Décembre 1874)_
 
 <br/>À tous les niveaux, le jeu de données contient des données extraites de divers numéros de _Revue des Autographes_ (25, 35, 50, 80 de la première série / 24, 56 de la deuxième).
 
@@ -35,7 +35,7 @@ _Revue des autographes, Gabriel Charavay. (Première série N°42, Decembre 1874
 **Lorsqu'on traite des catalogues à prix marqués dont la mise en page n'est pas aussi structuré que la _Revue des autographes_ (voir ci-dessous), GROBID dictionaries doit être entraîné avec le jeu de données grobid_OTHER_FIXED_PRICES.**
 
 <br/>![alt text](https://github.com/e-ditiones/GROBID/blob/master/OTHER_FIXED_PRICES.png)
-_Catalogue de lettres autographes et manuscrits, Auguste Laverdet (N°1, April 1856.)_
+_Catalogue de lettres autographes et manuscrits, Auguste Laverdet (N°1, Avril 1856.)_
 
 <br/>Le jeu de données contient au niveau "dictionary body segmentation" des données issues des catalogues à prix marqués d'Auguste Laverdet (numéro 1 and issue 22). Aux niveaux inférieurs, il contient les mêmes données que le modèle général.
 
@@ -44,7 +44,7 @@ _Catalogue de lettres autographes et manuscrits, Auguste Laverdet (N°1, April 1
 **Lorsqu'on traite des catalogues de vente aux enchères sans indication de prix (voir ci-dessous), GROBID dictionaries doit être entraîné avec le jeu de données grobid_AUCTION.**
 
 <br/>![alt text](https://github.com/e-ditiones/GROBID/blob/master/AUCTION.png)
-_Catalogue d’une intéressante collection de lettres autographes…, Noël Charavay (December, 14th 1908)_
+_Catalogue d’une intéressante collection de lettres autographes…, Noël Charavay (Décembre, 14th 1908)_
 
 <br/>Le jeu de données contient au niveau "dictionary body segmentation" des données issues d'un catalogue de vente produit par Noël Charavay pour une vente aux enchères (14 décembre 1908). Aux niveaux inférieurs, il contient les mêmes données que le modèle général.
 
