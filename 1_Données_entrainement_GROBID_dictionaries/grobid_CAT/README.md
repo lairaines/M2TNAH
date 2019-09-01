@@ -3,7 +3,7 @@
 
 Le corpus est constitué de numérisations de revues et catalogues produites par Auguste Laverdet, de la *Revue des autographes* de Gabriel Charavay ([data.bnf](http://data.bnf.fr/10429866/gabriel_charavay/)) et d'un catalogue de vente aux enchères édité par l'autre maison Charavay.
 
-## Methodology
+## Méthodologie
 
 Les fichiers PDF sont OCRisés avec [Transkribus](https://transkribus.eu). 
 
@@ -57,6 +57,6 @@ Concernant les jeux de données : CC-BY.
 
 <a rel="license" href="https://creativecommons.org/licenses/by/2.0"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a><br />
 
-## Citer ces jeux de données
+## Citer ce jeux de données
 
 Lucie Rondeau du Noyer, Simon Gabay, Mohamed Khemakhem, Laurent Romary. 2019. _Training and evaluation data for encoding Manuscript Sales Catalogues with GROBID dictionaries_.
