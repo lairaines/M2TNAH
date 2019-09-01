@@ -6,3 +6,7 @@ Une première partie de mon stage était destinée à proposer un modèle d'enco
 ## Catalogues numérotés à 18 à 88
 
 Une fois la chaîne de traitement des catalogues mise au point, j'ai produit un corpus cohérent de catalogues en traitant les numéros 19 à 95 de la *Revue des Autographes* de Gabriel puis d'Eugène Charavay (à l'exception des numéros qui ne comprenait aucune liste d'autographes : 20, 42, 46, 47). Ce corpus a servi à peupler mon application de visualisation des catalogues. 
+
+## Retrouver un catalogue
+
+Le fichier Liste_catalogues.tsv donne la correspondance entre les noms de fichier utilisés dans le cadre du fichier e-ditiones et les titres et numéros d'origine des catalogues traités automatiquement.
