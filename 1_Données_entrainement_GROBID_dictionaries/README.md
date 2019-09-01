@@ -15,7 +15,7 @@ Les données d'entraînement et d'évaluation du modèle générale sont extrait
 + Gabriel Charavay, _Revue des Autographes_, première série : 25, 35, 50, 80.
 + Gabrielle Charavay _Revue des Autographes_, deuxième série : 24, 56.
 + Auguste Laverdet, _Catalogue de lettres autographes et manuscrits_ : 1, 22.
-+ Etienne Charavay, _Catalogue d’une intéressante collection de lettres autographes…_ (14 décembre 1908).
++ Noël Charavay, _Catalogue d’une intéressante collection de lettres autographes…_ (14 décembre 1908).
 	
 Ce modèle général donne des résultats satisfaisants pour tous les types de catalogues de vente susceptibles d'être traités (prix marqués ou vente aux enchères. J'ai cependant constaté que dans le cas précis de mon stage, restreindre à certains niveaux les données d'entraînement permettait d'obtenir des résultats encore plus exacts et diminuait le temps de correction manuelle de chaque catalogue.
 
