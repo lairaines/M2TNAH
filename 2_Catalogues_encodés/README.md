@@ -12,7 +12,7 @@ Une fois la chaîne de traitement des catalogues mise au point (cf. schéma ci-d
 ## Transformations XSLT
 
 Après leur structuration automatique *via* l'interface graphique de GROBID-dictionaries, les catalogues sont deux fois transformés à l'aide deux feuilles XSL. 
-+ La première (**) permet dote le catalogue d'un teiHeader conforme aux recommandations générales de la TEI et remplace les balises lexicographiques utilisées par GROBID-dictionaries par des balises plus adoptées à l'encodage des catalogues de vente. 
++ La première (*grobid_output_transformation.xsl*) permet dote le catalogue d'un teiHeader conforme aux recommandations générales de la TEI et remplace les balises lexicographiques utilisées par GROBID-dictionaries par des balises plus adoptées à l'encodage des catalogues de vente. 
 + La deuxième (*catalog_final_transformation.xsl*) numérote automatiquement tous les items présents dans un même catalogue.
 
 ## Retrouver un catalogue
