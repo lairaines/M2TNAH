@@ -5,7 +5,7 @@ Dans ce sous-répertoire se trouve un choix raisonné des données d'entraîneme
 
 GROBID-dictionaries est un logiciel reposant sur l'apprentissage supervisé et permettant l'encodage automatique au format XML-TEI de ressources lexicales ou de forme encyclopédique.
 
-Les étapes pour installer GROBID-dictionaries, créer de nouveaux modèles ou entraîner des modèles préexistants afin de traiter des docuements sont disponibles [ici](https://github.com/MedKhem/grobid-dictionaries/wiki/Docker_Instructions9).
+Les étapes pour installer GROBID-dictionaries, créer de nouveaux modèles ou entraîner des modèles préexistants afin de traiter des documents sont disponibles [ici](https://github.com/MedKhem/grobid-dictionaries/wiki/Docker_Instructions9).
 
 ## Développement d'un modèle général grobid_CAT
 
