@@ -1,1 +1,8 @@
 
+## Catalogues numérotés de 1 à 6
+
+Une première partie de mon stage était destinée à proposer un modèle d'encodage pouvant s'appliquer au plus grande nombre catalogues de vente de manuscrits et d'autographes. À titre d'essai, j'ai donc encodé à l'aide de GROBID-dictionaries un ensemble de catalogues diversifiés : vente aux enchères et prix marqués, différentes maisons d'éditions. Ces fichiers ont été utilisés pour générer la documentation (sous forme d'ODD) du projet e-ditiones ainsi que son schéma général. 
+
+## Catalogues numérotés à 18 à 88
+
+Une fois la chaîne de traitement des catalogues mise au point, j'ai produit un corpus cohérent de catalogues en traitant les numéros 19 à 95 de la *Revue des Autographes* de Gabriel puis d'Eugène Charavay (à l'exception des numéros qui ne comprenait aucune liste d'autographes : 20, 42, 46, 47). Ce corpus a servi à peupler mon application de visualisation des catalogues. 
