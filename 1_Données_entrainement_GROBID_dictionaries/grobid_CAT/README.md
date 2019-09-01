@@ -16,7 +16,8 @@ Les données d'entraînement et d'évaluation du modèle générale sont extrait
 + Auguste Laverdet, *Catalogue de lettres autographes et manuscrits* : 1, 22.
 + Noël Charavay, *Catalogue d’une intéressante collection de lettres autographes…* (14 décembre 1908).
 
-The source of the training files are references in the file names using the following acronyms:
+La source des données est indiquée par les acronymes suivants :
+
 + RDA_1 pour la Revue des Autographes, première série
 + RDA_2 pour la Revue des Autographes, deuxième série 
 + LAV pour les catalogues d'Auguste Laverdet
@@ -49,7 +50,7 @@ Les données d'entraînement ("corpus") et les données d'évaluation sont dispo
 
 GROBID dictionaries est développé par Mohamed Khemakhem ([GitHub](https://github.com/MedKhem)). Plus d'informations sur les technologies GROBID est disponible [ici](https://grobid.readthedocs.io).
 
-## License
+## Licence
 
 Concernant `GROBID`, cf. [ici](https://github.com/MedKhem/grobid-dictionaries).
 
