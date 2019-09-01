@@ -5,7 +5,7 @@ Le schéma schema_grobid_output.rng a été élaboré pour faciliter la correcti
 
 Le schéma contient notamment des règles rédigées en langage Schematron. Elles visent à vérifier deux aspects de l’encodage automatique des catalogues de vente d’autographes par GROBID-dictionaries. 
 
-+ Le premier concerne l’enchaînement de la séquence des composantes de chaque élément <item>. Il s’agit de vérifier la présence, au minimum, d’un numéro de lot (élément <num>), d’un nom d’auteur (élément <name>) et d’une description standardisée (<desc>). 
++ Le premier concerne l’enchaînement de la séquence des composantes de chaque élément <item>. Il s’agit de vérifier la présence, au minimum, d’un numéro de lot (élément num), d’un nom d’auteur (élément name) et d’une description standardisée (élément desc). 
 + La deuxième règle vérifie que les lots sont numérotés de manière continue. 
   
   
